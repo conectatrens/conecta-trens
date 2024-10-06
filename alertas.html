@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConectaTrens - Alertas</title>
+</head>
+<body>
+    <header>
+        <h1>ConectaTrens - Alertas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="alertas.html">Alertas</a></li>
+                <li><a href="horarios.html">Horários</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="alertas-atuais">
+            <h2>Alertas Atuais</h2>
+            <ul id="lista-alertas">
+                <li>Alerta 1</li>
+                <li>Alerta 2</li>
+                <li>Alerta 3/li>
+                <li>Alerta 4</li>
+            </ul>
+        </section>
+
+        <section id="filtro-alertas">
+            <h2>Filtrar Alertas</h2>
+            <form>
+                <label for="linha">Linha:</label>
+                <select id="linha" name="linha">
+                    <option value="">Todas as linhas</option>
+                    <option value="azul">Linha Azul</option>
+                    <option value="verde">Linha Verde</option>
+                    <option value="vermelha">Linha Vermelha</option>
+                </select>
+
+                <label for="tipo">Tipo de Alerta:</label>
+                <select id="tipo" name="tipo">
+                    <option value="">Todos os tipos</option>
+                    <option value="atraso">Atraso</option>
+                    <option value="interrupcao">Interrupção</option>
+                    <option value="manutencao">Manutenção</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+
+                <button type="submit">Filtrar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ConectaTrens. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
