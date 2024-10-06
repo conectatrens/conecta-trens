@@ -1,11 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trens</title>
+    <title>ConectaTrens - Informações dos Trens</title>
 </head>
 <body>
-    
+    <header>
+        <h1>ConectaTrens - Informações dos Trens</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="trens.html">Trens</a></li>
+                <li><a href="alertas.html">Alertas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="busca-trens">
+            <h2>Buscar Trem</h2>
+            <form>
+                <label for="linha">Linha:</label>
+                <select id="linha" name="linha">
+                    <option value="">Selecione uma linha</option>
+                    <option value="azul">Linha Azul</option>
+                    <option value="verde">Linha Verde</option>
+                    <option value="vermelha">Linha Vermelha</option>
+                    <!-- Adicione mais opções conforme necessário -->
+                </select>
+
+                <label for="estacao">Estação:</label>
+                <input type="text" id="estacao" name="estacao" placeholder="Digite o nome da estação">
+
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section id="lista-trens">
+            <h2>Trens em Operação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Linha</th>
+                        <th>Número do Trem</th>
+                        <th>Origem</th>
+                        <th>Destino</th>
+                        <th>Status</th>
+                        <th>Próxima Parada</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-trens">
+                    <!-- Os dados dos trens serão inseridos aqui dinamicamente via JavaScript -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="informacoes-adicionais">
+            <h2>Informações Adicionais</h2>
+            <ul>
+                <li>
+                    <h3>Capacidade dos Trens</h3>
+                    <p>Informações sobre a capacidade de passageiros dos diferentes tipos de trens.</p>
+                </li>
+                <li>
+                    <h3>Acessibilidade</h3>
+                    <p>Detalhes sobre recursos de acessibilidade disponíveis nos trens.</p>
+                </li>
+                <li>
+                    <h3>Manutenção Programada</h3>
+                    <p>Calendário de manutenções programadas que podem afetar o serviço.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ConectaTrens. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
