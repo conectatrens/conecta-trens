@@ -5,7 +5,7 @@ ConectaTrens é uma solução inovadora voltada para melhorar a comunicação en
 ## Índice
 
 - [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Tecnologias Futuras](#tecnologias-futuras)
 
 ## Funcionalidades
 
@@ -27,7 +27,7 @@ O ConectaTrens inclui as seguintes funcionalidades principais:
    - Facilitação da interação entre usuários e empresas de transporte, com o envio de notificações e atualizações em tempo real, fortalecendo a confiança e melhorando a experiência dos passageiros.
 
 
-## Tecnologias que vão ser utilizadas
+## Tecnologias futuras
 
 - **Frontend**: ReactJS
 - **Backend**: Python, Java
