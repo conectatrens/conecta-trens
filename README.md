@@ -26,10 +26,6 @@ O ConectaTrens inclui as seguintes funcionalidades principais:
 5. **Notificações e Comunicação Direta**
    - Facilitação da interação entre usuários e empresas de transporte, com o envio de notificações e atualizações em tempo real, fortalecendo a confiança e melhorando a experiência dos passageiros.
 
-## Tecnologias Utilizadas
-
-- **Frontend**: ReactJS
-- **Backend**: Python, Java
 
 ## Tecnologias que vão ser utilizadas
 
